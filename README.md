@@ -1,2 +1,21 @@
 # aboutMe-1
-Thie web page is going to display information about me, including my brief history, links to social media, and a contact me link so that if you have any questions you can reach out to me.
+I have created an About Me webpage that is mobile responsive using the Bootstrap CSS Framework.
+
+I created the page using the following files: index.html, portfolio.html, contact.html and style.css.
+
+I used the following Bootstrap items:
+
+navbar
+
+cards
+
+containers/rows/columns
+
+a responsive layout
+
+responsive images
+
+form groups
+
+links
+
