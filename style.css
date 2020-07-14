@@ -3,18 +3,19 @@
 }
 
 body {
-    background-color: black;
+    background-color:whitesmoke;
 }
 
 .wrapper {
   /* Box-model */
   width: 1024px;
   padding: 20px;
+  background-color: whitesmoke;
 }
 
 
 section {
-    background-color: lightgray;
+    background-color: whitesmoke;
 }
 
 
@@ -24,11 +25,6 @@ section {
   background-color: teal;
   padding: 10px;
 
-}
-
-.nb2{
-  flex-basis: auto;
-  display: flex!important;
 }
 
 .abme {
@@ -43,36 +39,33 @@ section {
     float: left;
 }
 
-.rowbg{
-  background-color: white;
-}
 
 .portcard{
     width: fit-content;
     height: fit-content;
+    margin: 0px;
 }
 
 .text-block {
   position: absolute;
   bottom: 20px;
   right: 20px;
-  background-color: black;
+  background-color:grey;
   color: white;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-@media screen and (max-width: 980px) {
+.footer {
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and (max-width: 991px) {
     body {
-      background-color: #333;
+      background-color:whitesmoke;
     }
 
-    .nb2{
-      flex-basis: auto;
-      display: flex!important;
-      flex-grow: 1;
-      align-items: center;
-    }
   
     .wrapper {
       /* Box-model */
@@ -80,14 +73,10 @@ section {
       padding: 20px;
     }
   
-    #main-content,
-    #sidebar {
+    #main-content {
       width: 100%;
     }
-  
-    #sidebar {
-      margin-top: 40px;
-    }
+
 
     .img1{
         padding: 5px;
@@ -102,7 +91,7 @@ section {
   /* Width at 768px and below */
   @media screen and (max-width: 768px) {
     body {
-      background-color: #333;
+      background-color:whitesmoke;
     }
   
     .wrapper {
@@ -111,14 +100,10 @@ section {
       padding: 20px;
     }
   
-    #main-content,
-    #sidebar {
+    #main-content {
       width: 100%;
     }
   
-    #sidebar {
-      margin-top: 40px;
-    }
 
     .img1{
         width: 6px;
@@ -130,7 +115,7 @@ section {
   /* Width at 640px and below */
   @media screen and (max-width: 640px) {
     body {
-      background-color: yellow;
+      background-color:whitesmoke;
     }
   
     .wrapper {
@@ -139,14 +124,10 @@ section {
       padding: 20px;
     }
   
-    #main-content,
-    #sidebar {
+    #main-content {
       width: 100%;
     }
   
-    #sidebar {
-      margin-top: 40px;
-    }
 
     .img1{
         width: 100%;
