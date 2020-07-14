@@ -3,11 +3,10 @@
 }
 
 body {
-    background-color:whitesmoke;
+    background-color: lightblue;
 }
 
 .wrapper {
-  /* Box-model */
   width: 1024px;
   padding: 20px;
   background-color: whitesmoke;
@@ -85,10 +84,8 @@ section {
     }
 
   }
-  
-  /* Additional Screen Sizes */
-  
-  /* Width at 768px and below */
+
+
   @media screen and (max-width: 768px) {
     body {
       background-color:whitesmoke;
@@ -112,14 +109,12 @@ section {
 
   }
   
-  /* Width at 640px and below */
   @media screen and (max-width: 640px) {
     body {
       background-color:whitesmoke;
     }
   
     .wrapper {
-      /* Box-model */
       width: 100%;
       padding: 20px;
     }
