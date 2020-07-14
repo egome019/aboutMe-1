@@ -47,7 +47,7 @@ section {
 
 @media screen and (max-width: 991px) {
     body {
-      background-color:whitesmoke;
+      background-color:lightblue;
       display: flex;
       flex-direction: column;
     }
@@ -79,7 +79,7 @@ section {
 
   @media screen and (max-width: 768px) {
     body {
-      background-color:whitesmoke;
+      background-color:lightblue;
       display: flex;
       flex-direction: column;
     }
@@ -107,7 +107,7 @@ section {
   
   @media screen and (max-width: 640px) {
     body {
-      background-color:whitesmoke;
+      background-color:lightblue;
       display: flex;
       flex-direction: column;
     }
